@@ -19,6 +19,10 @@ spring:
         testOnReturn: false
         poolPreparedStatements: true
         maxOpenPreparedStatements: 20
+    mvc:
+      view:
+        prefix: /WEB-INF/jsp/
+        suffix: .jsp
 logging:
   file: F://log/log.log
   path: F://log

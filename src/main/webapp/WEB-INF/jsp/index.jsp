@@ -1,9 +1,8 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html; charset=gb2312"%>
 <html lang="en">
-
 <body>
    welcome,changgx
-   <a href="select.do">æŸ¥è¯¢</a>
+   <a href="findAll">²éÑ¯</a>
 </body>
 
 </html>
