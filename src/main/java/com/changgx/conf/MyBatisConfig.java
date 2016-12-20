@@ -51,6 +51,7 @@ public class MyBatisConfig implements TransactionManagementConfigurer {
     public SqlSessionFactory sqlSessionFactoryBean() {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
+        //设置别名
         bean.setTypeAliasesPackage("com.changgx.bean");
 
         //添加XML目录
