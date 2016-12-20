@@ -39,4 +39,9 @@ public class Controller {
     public String findAll() {
         return bookService.findAll().toString();
     }
+    @RequestMapping("/insert")
+    @ResponseBody
+    public String insert() {
+        return bookService.findAll().toString();
+    }
 }
