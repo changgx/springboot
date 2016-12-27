@@ -1,6 +1,6 @@
 server:
-  port: 9090
-  servlet-path: /bayesian
+  port: 9091
+  servlet-path: /changgx
 spring:
     datasource:
         url: jdbc:mysql://localhost:3306/changgx?useUnicode=true&characterEncoding=utf-8

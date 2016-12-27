@@ -44,4 +44,9 @@ public class Controller {
     public String insert() {
         return bookService.findAll().toString();
     }
+    @RequestMapping("/update/{isdn}")
+    @ResponseBody
+    public int update(@PathVariable int isdn) {
+        return bookService.update(isdn);
+    }
 }

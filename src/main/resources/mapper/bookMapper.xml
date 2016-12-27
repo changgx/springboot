@@ -10,4 +10,11 @@
     <select id="findBookByISDN" resultType="Book" parameterType="Integer">
         select * from book where ISDN=#{isdn}
     </select>
+
+    <update id="update" parameterType="Integer">
+        update  book set num=num-1 where isdn=#{isdn}
+    </update>
+    <update id="test">
+        select * from bookccs
+    </update>
 </mapper>

@@ -3,6 +3,7 @@
 <body>
 welcome,changgx
 <a href="findAll">jjj</a>
+<a href="findAll">jjj</a>
 </body>
 
 </html>
